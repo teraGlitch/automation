@@ -1,0 +1,170 @@
+
+given i have opened the ontap app
+and the salesforce authentication page is displayed
+and i enter the credentials for {string}
+when i click on login button
+and the system starts syncing
+then a progress bar in percent should be displayed
+given i am logged in ontap as a {string}
+and i am on the ontap main page
+when i click on the side menu button
+then the logout option should be displayed in the menu
+and i open the side menu
+when i click on the logout option
+and i confirm the logout
+then i will be logged out successfully
+and the system finished syncing
+then i will be at ontap main page
+given i have logged on ontap app with the {string} for the first time
+and the first sync is finished
+and i turn off the celular data
+and i get an error message during the first sync
+and i turn on the celular data
+when i will click on the logout option in the message
+then i will be redirected to salesforce login page
+when i allow all the permissions until i find {string} pop up
+then i can allow the permission
+when i allow all the permissions excluding {string}
+then the message about permission required is displayed
+and i cannot access the app until the {string} is allowed
+when i remove a {string} on app settings
+and i back to the app
+then the app displays me a pop up for allow the permission
+and i can accept the denied permission again
+when i turn off the device gps
+then a message about the disabled location is displayed
+and i should be able to keep the location disabled
+and i can turn on location again
+and i have a visit to perform
+and i open the visit
+and i am oustide of the poc visit allowed check in range
+when i try to perform the check in
+then the app displays an error message informing that i am out of the allowed distance
+and i am able to cancel the check in
+and i am within the poc visit allowed check in range
+then i am able to check in successfully
+then a message about the disabled location is displayed by the app
+when i click on check in button
+then i am able to cancel the check in in this poc
+and i did the check in successfully
+when i click on check out button
+then i am able to cancel the check out in this poc
+then i am able to check out this visit
+and i have two visits to perform
+and i do the check in in the first poc
+when i open the second visit
+then a message about the current check in is displayed
+and i am able to check out the current visit and check in in the second
+and i did the check out successfully
+then the button color will change
+then the label will change to check out
+when i try to perform the check out
+then the button color will be changed
+then the label will change to check in
+when i click on exceptions option
+and i apply an {string} for the exception
+then the app will sync my changes
+and the check out will be done successfully
+and the check in button is being displayed
+then the app will sync the changes
+and the visit should not be completed
+then the poc insights will be displayed as a pop-up
+and i have a phone call visit to perform
+then i am able to check in in phone call type visits
+when i am back to the app main page
+then my visit will have a completed layout
+and i have a completed visit in the list
+then the system should display a message informing already completed visit
+then i am able to check in in a already completed visit in the list
+then i am able to cancel the check in action
+when i open the created visit
+then i should see the background sync at the top of the screen
+when i select the exceptions option
+then a warning about the completed visit should be displayed
+and i turn off my cellular data
+then i am able to check in even with my cellular data turned off
+and i have a {string} visit to perform
+then the system displays a message about the range allowed for negotiation visits
+then i will be able to check in in phone call type visits
+and i am within the poc allowed check in range
+then the check in will be done successfully in my planned visit activity
+then i am able to check in negotiation type visits
+then the system displays a message about the range allowed for planned visit visits
+when i click on check in
+and the background sync is displayed
+then i should be able to check out without being blocked by background sync
+when i back to ontap main page
+then the complete visits counter will be increased
+and the open visits counter will be decreased
+and i have a {string} survey to perform during the visit
+and i did the check in successfully in the visit
+when i open the survey created before
+then i should be able to complete the basic survey
+and i am able to check out
+then i should be able to complete the quiz
+then i should be able to complete the poce survey
+and i have a already completed visit
+then i should be able to complete my basic survey
+and i have a {string} {string} {string} task to perform during the visit
+when i open the task created before
+then i should be able to complete the bdr task type other and subtype other
+then i should be able to complete the bdr task type other and subtype cooler
+then i should be able to complete the bdr task type image recognition and subtype poster
+then i should be able to complete the poc task type other and subtype poster
+then i should be able to complete the poc task type image recognition and subtype other
+then i should be able to complete the poc task type image recognition and subtype cooler
+I choose a visit {string} to Reschedule in the next week
+then the app will deny this action
+and i select a date in the same week to reschedule
+then the app will deny the performed action
+when i create an unplanned visit
+then the app will sync the data in the background
+and the unplanned visit will be available
+given that i am at the poc search page
+when i have chosen an account {string} in the list and click on the icon more to add
+then a warning will be displayed with the message unplanned visit created successfully
+and the unplanned visit will be displayed on the visit list as unplanned visit event type
+when i click type on the icon more at the visit counter bar
+then the app will list the pocs available to schedule an unplanned visit
+and the global search bar will be at the top of the screen
+when i type the name of the poc in the global search bar {string}
+then the app will apply the filter and bring me the results according
+and i will be able to add this poc to the visit list
+then the app will apply the filter and will not find the poc that i am looking for
+and i am at the open task detail page
+when i click on edit button
+then i am taken to the task edit page where i can edit change the information
+given i am on the task list page
+when i click on the create new task button
+then i can create a new task on creation screen
+when i am create new task with all the information added
+then all the information are ready to be synchronized.
+and i go to task page in user {int}
+then i can see a list of all the tasks opened
+and verify that each card has dynamic layout
+and i scroll through the page
+then i can see the dynamic layout that came from sf with all the revelant tasks details.
+when i verify the tasks card
+then i can see the newest task is always on the top from new to old
+and i am at the ordes page
+when i scroll down to the bottom of the page
+then i can see a card with the last order info
+when i see the action icons above the check in button
+then the icons should be order by: poc insights kpi {int} timeline chatter notes
+when i open the poc insights icon at the slider bar inside a visit
+then will be pop-up a poc insights screen
+and the kpi value is negative
+then the color will be red
+and i am at pocs page
+and i have a poc where the potential revenue value is equals to zero
+when i open the poc insights inside the poc
+then the what can we do phrase will be {string}
+and i have a poc where the potential revenue value is different than zero
+then the what can we do phrase will displays the {string}
+and i go to the user kpis page
+when i open the kpi {string}
+then i will be taken to the child kpi page
+and the kpi will be displayed as a result chart {string}
+when accessing orders at the user 360 page
+then the orders list will be displayed
+then will be available a search bar on the top of the screen
